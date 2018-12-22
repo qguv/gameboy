@@ -4,7 +4,7 @@ I plan to write a bunch of tutorials from the ground up, explaining how to use t
 
 If you don't understand everything here, don't worry, you don't have to right now. A lot of this can be copy-pasted verbatim and changed later, but I've taken time to break it down and explain different pieces.
 
-This tutorial uses Z80 assembly and an assembler named [RGBDS](http://anthony.bentley.name/rgbds/), which is included with the download link at the bottom. 
+This tutorial uses Z80 assembly and an assembler named [RGBDS](https://github.com/rednex/rgbds), which is included with the download link at the bottom. 
 
 ### **Layout**
 
@@ -14,7 +14,7 @@ First thing to do is to tell the assembler where to put the code. Make a text fi
 
 &#9670; This defines a section named *rom* located in the **HOME** bank (ROM bank 0).
 
-&#9670; RGBDS sections are kind of ugly, but you can read a bit about them here: http://otakunozoku.com/RGBDSdocs/asm/section.htm
+&#9670; RGBDS sections are kind of ugly, but you can read a bit about them [here](https://rednex.github.io/rgbds/rgbasm.5.html#Sections).
 
 ### **Boot Header**
 
@@ -98,9 +98,9 @@ Whew, and we're done!
 
 For more information, there are some resources:
 
-&#9670; The Cartridge Header: http://nocash.emubase.de/pandocs.htm#thecartridgeheader
+&#9670; [The Cartridge Header](http://nocash.emubase.de/pandocs.htm#thecartridgeheader)
 
-&#9670; Reverse engineering the Game Boy's internal boot code: http://gbdev.gg8.se/wiki/articles/Gameboy_Bootstrap_ROM
+&#9670; [Reverse engineering the Game Boy's internal boot code](http://gbdev.gg8.se/wiki/articles/Gameboy_Bootstrap_ROM)
 
 ### **Loose Ends**
 
@@ -135,7 +135,7 @@ And there you go! If all went well, you should see **game.gb**, your very own Ga
 
 &#9670; I really recommend [BGB](http://bgb.bircd.org/) if you're on Windows, as it is probably the most accurate GB emulator and it contains many developer-friendly features.
 
-&#9670; You can also buy cartrdiges like the [Drag N Derp](http://derpcart.com/) to test on real hardware.
+&#9670; You can also buy cartrdiges like the [Drag N Derp](http://derpcart.com/) or the [GB USB 64M](https://store.kitsch-bent.com/product/usb-64m-smart-card) to test on real hardware.
 
 ### **Next Steps**
 
